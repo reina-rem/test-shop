@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.css",
+    "main.js": "./static/js/main.js",
+    "static/media/Roboto_Condensed.ttf": "./static/media/Roboto_Condensed.ff29b2791402495b1616.ttf",
+    "static/media/Raleway.ttf": "./static/media/Raleway.d8040b0cc740dda7550a.ttf",
+    "static/media/Source_Sans_Pro.otf": "./static/media/Source_Sans_Pro.7a9975d8c02d6933c47d.otf",
+    "static/media/Roboto-500.ttf": "./static/media/Roboto-500.e73e917f7bfa48666e00.ttf",
+    "static/media/Roboto-400.ttf": "./static/media/Roboto-400.27f62b53b93858475a7f.ttf",
+    "static/media/Roboto-700.ttf": "./static/media/Roboto-700.d50a80138ec4f2fb5e9f.ttf",
+    "index.html": "./index.html",
+    "main.css.map": "./static/css/main.css.map",
+    "main.js.map": "./static/js/main.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}

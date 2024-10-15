@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/Raleway.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-400';
+  src: url('./fonts/Roboto-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-500';
+  src: url('./fonts/Roboto-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-700';
+  src: url('./fonts/Roboto-700.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./fonts/Roboto_Condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/Source_Sans_Pro.otf') format('opentype');
+}
+
+body {
+  font-family: 'Raleway';
+  color: #1D1F22;
+  background-color: white;
+}
+
+a {
+  color: inherit;
+
+  &:active {
+    color: inherit;
+  }
+}
