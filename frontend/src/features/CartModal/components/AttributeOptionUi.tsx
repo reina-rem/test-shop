@@ -3,7 +3,7 @@ import React from 'react'
 
 import { AttributeProps } from './AttributeUi'
 import { Option } from '../CartModalSlice'
-import kebabCase from 'lodash/kebabCase'
+import { kebabCase } from 'lodash'
 
 type AttributeOptionProps = AttributeProps & {
   option: Option

@@ -2,7 +2,8 @@ import styled from '@emotion/styled'
 import React from 'react'
 
 import { CartModalReduxProps } from './CartModalConnector'
-import { ProductUi } from './components/ProductUi'
+import { ProductUi as Product } from './components/ProductUi'
+import { kebabCase } from 'lodash'
 
 export type CartModalProps = CartModalReduxProps & {
   toggleCart: () => void
@@ -18,7 +19,9 @@ export class CartModalUi extends React.Component<CartModalProps> {
   render(): React.ReactNode {
     return (
       !this.props.hasError &&
-      <CartModalContainer>
+      <CartModalContainer
+        data-testid="cart-overlay"
+      >
         <CartHeader>
           My Bag
           <TotalItems data-testid='cart-total'>
@@ -29,11 +32,12 @@ export class CartModalUi extends React.Component<CartModalProps> {
         <ProductList>
           {this.props.products.map(
             (product, i) => (
-              <ProductUi
+              <Product
                 key={i}
                 {...this.props}
                 product={product}
                 productIndex={i}
+                data-testid={kebabCase(product.id)}
               />
             )
           )}

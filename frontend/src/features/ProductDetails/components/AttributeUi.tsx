@@ -5,7 +5,7 @@ import { Attribute } from '../ProductDetailsSlice'
 
 import { AttributeOptionUi as AttributeOption } from './AttributeOptionUi'
 import { ProductDetailsProps } from '../ProductDetailsUi'
-import kebabCase from 'lodash/kebabCase'
+import { kebabCase } from 'lodash'
 
 export type AttributeProps = ProductDetailsProps & {
   attribute: Attribute

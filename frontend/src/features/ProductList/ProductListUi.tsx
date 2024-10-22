@@ -4,7 +4,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { ProductListReduxProps } from './ProductListConnector'
 import { Price } from './ProductListSlice'
-import kebabCase from 'lodash/kebabCase'
+import { kebabCase } from 'lodash'
 
 type ProductListProps = ProductListReduxProps & {
   categoryId: string
@@ -33,7 +33,7 @@ export class ProductListUi extends React.Component<ProductListProps> {
           {this.props.products.map(
             product => (
               <Card
-                data-testid={`product-${kebabCase(product.name)}`}
+                data-testid={`product-${kebabCase(product.id)}`}
                 key={product.id}
                 to={`${product.id}`}
                 className={product.inStock ? '' : 'out-of-stock'}
