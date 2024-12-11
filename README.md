@@ -8,7 +8,7 @@ This project was developed as a test assignment for the Junior Full Stack Develo
 - **CSS-in-JS**: Emotion.js for styling components
 
 ## Live Demo 
-You can view the live demo of the application here: [Live Demo](http://176.120.67.40/)
+You can view the live demo of the application here: [Live Demo](http://176.120.67.142:8000/)
 
 ## Main Features
 ### Back-end Functionality
@@ -48,4 +48,4 @@ You can view the live demo of the application here: [Live Demo](http://176.120.6
 - If product is out of stock, the "add to cart" button becomes inactive, and the text changes to "out of stock"
 
 ## Deploy
-The deployment was carried out through a VPS server purchased for **1 month** on the service [https://pq.hosting/](https://pq.hosting/). The server will be operational until November 14, 2024.
+The deployment was carried out through a VPS server purchased for **1 month** on the service [https://pq.hosting/](https://pq.hosting/). The server will be operational until January 11, 2025.
