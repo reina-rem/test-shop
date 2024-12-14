@@ -1,14 +1,14 @@
 # Test Shop
 This project was developed as a test assignment for the Junior Full Stack Developer position. It demonstrates my ability to create a functional eCommerce site with both back-end and front-end components. The application meets the provided specifications and design.
 
+## Live Demo 
+You can view the live demo of the application here: [Live Demo](http://176.120.67.142:8000/)
+
 ## Technologies Used
 - **Back-end**: PHP 8.2, MySQL 5.6 (running in Docker) 
 - **Front-end**: React.js (CRA), Redux Toolkit
 - **GraphQL**: For data fetching and mutations
 - **CSS-in-JS**: Emotion.js for styling components
-
-## Live Demo 
-You can view the live demo of the application here: [Live Demo](http://176.120.67.142:8000/)
 
 ## Main Features
 ### Back-end Functionality
