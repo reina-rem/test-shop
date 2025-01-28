@@ -2,7 +2,7 @@
 This project was developed as a test assignment for the Junior Full Stack Developer position. It demonstrates my ability to create a functional eCommerce site with both back-end and front-end components. The application meets the provided specifications and design.
 
 ## Live Demo 
-You can view the live demo of the application here: [Live Demo](http://176.120.67.142:8000/)
+You can view the live demo of the application here: [Live Demo](http://5.180.30.89/)
 
 ## Technologies Used
 - **Back-end**: PHP 8.2, MySQL 5.6 (running in Docker) 
@@ -48,4 +48,4 @@ You can view the live demo of the application here: [Live Demo](http://176.120.6
 - If product is out of stock, the "add to cart" button becomes inactive, and the text changes to "out of stock"
 
 ## Deploy
-The deployment was carried out through a VPS server purchased for **1 month** on the service [https://pq.hosting/](https://pq.hosting/). The server will be operational until January 11, 2025.
+The deployment was carried out through a VPS server purchased for **2 months** on the service [https://pq.hosting/](https://pq.hosting/). The server will be operational until March 26, 2025.
